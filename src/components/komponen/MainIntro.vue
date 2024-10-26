@@ -56,7 +56,7 @@
 @media (max-width: 480px) {
     .container {
         flex-direction: column;
-        margin-top: 40px;
+        margin-top: 35px;
     }
     .leftM h1{
         font-size: 35px;
