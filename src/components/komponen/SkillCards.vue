@@ -84,7 +84,7 @@ h2 {
     }
 
     .card {
-        width: 90px;
+        width: 85px;
         height: 70px;
         margin: 10px 20px;
         padding: 0;
