@@ -69,7 +69,7 @@ export default {
 @media (max-width: 400px) {
     .container {
         display: flex;
-        padding: 20px 20px;
+        padding: 20px 0 0 20px;
         justify-content: space-between;
         align-items: center;
     }
