@@ -51,7 +51,7 @@ export default {
             this.isPortfolioMenu = !this.isPortfolioMenu;
         },
         checkScreenSize() {
-            this.isMobile = window.innerWidth <= 400;
+            this.isMobile = window.innerWidth <= 480;
         },
     },
     mounted() {
@@ -66,16 +66,22 @@ export default {
 </script>
 
 <style scoped>
-@media (max-width: 400px) {
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
     .container {
-        display: flex;
+        /* display: flex; */
         padding: 20px 30px 0 30px;
         justify-content: space-between;
         align-items: center;
     }
     nav {
         height: 80px;
-        width: 400px;
+        width: 100%;
     }
 
     .cont1 {

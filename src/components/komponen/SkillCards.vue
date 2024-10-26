@@ -104,4 +104,32 @@ h2 {
         /* display: none; */
     }
 }
+
+/* 480 */
+@media (max-width: 480px) {
+    .container {
+        align-items: center;
+    }
+
+    .card {
+        width: 100px;
+        height: 80px;
+        margin: 10px 20px;
+        padding: 0;
+    }
+
+    .card-image {
+        width: 25px;
+        height: 25px;
+        margin: 10px 0 0 0;
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 10px;
+        text-align: center;
+        margin-right: 10px;
+        /* display: none; */
+    }
+}
 </style>

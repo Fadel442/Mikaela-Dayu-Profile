@@ -64,4 +64,34 @@
         margin: 20px 0;
     }
 }
+
+/* 480 */
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .leftM {
+        padding: 0;
+    }
+
+    .content {
+        text-align: center;
+        margin: 25px 20px;
+    }
+
+    .content h1 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .content p {
+        font-size: 15px;
+        margin: 20px 0;
+    }
+    .porto-btn {
+        width: 200px;
+    }
+}
 </style>

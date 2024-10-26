@@ -28,6 +28,7 @@
     width: 100%;
 }
 
+/* 400 */
 @media (max-width: 400px) {
     .container {
         margin: 0 20px;
@@ -47,6 +48,29 @@
     .content p {
         margin: 20px 0;
         font-size: 10px;
+    }
+}
+
+/* 480 */
+@media (max-width: 480px) {
+    .container {
+        margin: 0 20px;
+    }
+    .rightM {
+        padding: 0;
+        /* text-align: center; */
+    }
+    .content {
+        text-align: center;
+        margin: 25px 20px;
+    }
+    .content h1 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .content p {
+        margin: 20px 0;
+        font-size: 15px;
     }
 }
 </style>

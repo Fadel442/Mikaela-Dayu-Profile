@@ -56,4 +56,20 @@ h1 {
         font-size: 15px;
     }
 }
+
+/* 480 */
+@media (max-width: 480px) {
+    .container {
+        margin: 15px;
+    }
+
+    .blok1, .blok2 {
+        height: 3px;
+        margin: 0 30px;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+}
 </style>

@@ -42,4 +42,11 @@
       font-size: 10px;
     }
   }
+
+  /* 480 */
+  @media (max-width: 480px) {
+    .footer-content {
+      font-size: 15px;
+    }
+  }
   </style>

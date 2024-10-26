@@ -38,12 +38,29 @@ export default {
 </script>
 
 <style scoped>
+header {
+  margin: 0 100px;
+}
+main {
+  margin: 0 100px;
+}
+
 @media (max-width: 400px)
 {
   header {
     margin: 0;
   }
-  body {
+  main {
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px)
+{
+  header {
+    margin: 0;
+  }
+  main {
     margin: 0;
   }
 }
