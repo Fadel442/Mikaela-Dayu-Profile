@@ -70,7 +70,7 @@
     }
     .content p {
         margin: 20px 0;
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 </style>

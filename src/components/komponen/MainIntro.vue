@@ -65,7 +65,7 @@
     }
     .leftM h4 {
         font-size: 15px;
-        font-weight: lighter;
+        font-weight: normal;
     }
     .rightM {
         align-items: center;

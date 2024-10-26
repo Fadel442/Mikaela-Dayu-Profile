@@ -82,16 +82,13 @@
     }
 
     .content h1 {
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bold;
     }
 
     .content p {
-        font-size: 15px;
+        font-size: 150x;
         margin: 20px 0;
-    }
-    .porto-btn {
-        width: 200px;
     }
 }
 </style>

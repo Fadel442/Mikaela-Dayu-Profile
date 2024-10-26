@@ -112,7 +112,7 @@ h2 {
     }
 
     .card {
-        width: 100px;
+        width: 85px;
         height: 80px;
         margin: 10px 20px;
         padding: 0;
@@ -121,12 +121,12 @@ h2 {
     .card-image {
         width: 25px;
         height: 25px;
-        margin: 10px 0 0 0;
+        margin: 15px 0 0 0;
     }
 
     h2 {
         font-weight: bold;
-        font-size: 10px;
+        font-size: 8px;
         text-align: center;
         margin-right: 10px;
         /* display: none; */
