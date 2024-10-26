@@ -17,6 +17,13 @@
     text-align: center;
     justify-content: center;
 }
+.rightM img {
+        width: 300px;
+        height: 320px;
+        background-color: #FFCDEA;
+        border-radius: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(248, 95, 225, 0.4);
+    }
 
 @media (max-width: 400px) {
     .container {
@@ -41,6 +48,7 @@
         height: 320px;
         background-color: #FFCDEA;
         border-radius: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(248, 95, 225, 0.4);
     }
 }
 
