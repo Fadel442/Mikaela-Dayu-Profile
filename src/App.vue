@@ -37,4 +37,14 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+@media (max-width: 400px)
+{
+  header {
+    margin: 0;
+  }
+  body {
+    margin: 0;
+  }
+}
+</style>
