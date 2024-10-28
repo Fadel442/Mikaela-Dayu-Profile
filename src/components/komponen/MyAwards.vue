@@ -63,17 +63,17 @@ export default {
 
 <template>
     <div class="container">
-        <div class="isMobile" v-if="isMobile">
+        <!-- <div class="isMobile" v-if="isMobile">
             <Carousel v-bind="config" :modelValue="currentSlide">
                 <Slide v-for="(item, image) in images" :key="image">
                     <img :src="item.gambar" alt="">
                 </Slide>
-                <!-- <template #addons>
+                <template #addons>
                     <Navigation />
                     <Pagination />
-                </template> -->
+                </template>
             </Carousel>
-        </div>
+        </div> -->
         <div class="leftM">
             <div class="content">
                 <h1>Juara 3</h1>
