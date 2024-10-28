@@ -58,10 +58,10 @@ main {
 @media (max-width: 480px)
 {
   header {
-    margin: 0 30px;
+    margin: 0;
   }
   main {
-    margin: 0 30px;
+    margin: 0;
   }
 }
 </style>

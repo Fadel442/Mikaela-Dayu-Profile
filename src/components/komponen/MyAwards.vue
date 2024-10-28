@@ -186,6 +186,7 @@ export default {
     }
     .isMobile {
         margin: 20px 0 0 0;
+        overflow: hidden;
     }
 }
 </style>
