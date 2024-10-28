@@ -63,7 +63,7 @@ export default {
 
 <template>
     <div class="container">
-        <!-- <div class="isMobile" v-if="isMobile">
+        <div class="isMobile" v-if="isMobile">
             <Carousel v-bind="config" :modelValue="currentSlide">
                 <Slide v-for="(item, image) in images" :key="image">
                     <img :src="item.gambar" alt="">
@@ -73,7 +73,7 @@ export default {
                     <Pagination />
                 </template>
             </Carousel>
-        </div> -->
+        </div>
         <div class="leftM">
             <div class="content">
                 <h1>Juara 3</h1>
@@ -117,6 +117,10 @@ export default {
     max-width: 100%;
     overflow: hidden;
     /* Sembunyikan overflow */
+}
+.isMobile {
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .porto-btn {
@@ -186,7 +190,7 @@ export default {
     }
     .isMobile {
         margin: 20px 0 0 0;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 }
 </style>
