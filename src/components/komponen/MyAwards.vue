@@ -68,10 +68,10 @@ export default {
                 <Slide v-for="(item, image) in images" :key="image">
                     <img :src="item.gambar" alt="">
                 </Slide>
-                <template #addons>
-                    <!-- <Navigation /> -->
+                <!-- <template #addons>
+                    <Navigation />
                     <Pagination />
-                </template>
+                </template> -->
             </Carousel>
         </div>
         <div class="leftM">
