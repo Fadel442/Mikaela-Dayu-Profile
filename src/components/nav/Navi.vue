@@ -46,6 +46,9 @@ export default {
     methods: {
         toggleMenu() {
             this.isMenu = !this.isMenu;
+            if (!this.menu) {
+                this.isPortfolioMenu = false;
+            }
         },
         togglePortfolio() {
             this.isPortfolioMenu = !this.isPortfolioMenu;
