@@ -29,7 +29,7 @@
                     <RouterLink to="/" class="color-menu">Others</RouterLink>
                 </div>
             </div>
-            <RouterLink to="/" class="color-menu">Home</RouterLink>
+            <RouterLink to="/" class="color-menu">Contact Me!</RouterLink>
         </div>
     </nav>
 </template>
