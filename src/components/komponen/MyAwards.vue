@@ -29,7 +29,7 @@ export default {
                     gambar: '/gambar/nduk3.jpg',
                 },
             ],
-            isMobile: true,
+            isMobile: window.innerWidth <= 480,
             currentSlide: 0,
         }
     },
@@ -47,14 +47,14 @@ export default {
                 this.currentSlide++;
             }, this.config.autoplay);
         },
-    },
-    checkScreenSize() {
-        this.isMobile = window.innerWidth <= 480;
+        checkScreenSize() {
+            this.isMobile = window.innerWidth <= 480;
+        },
     },
     mounted() {
-        this.startAutoplay();
         this.checkScreenSize();
         window.addEventListener('resize', this.checkScreenSize);
+        this.startAutoplay();
     }, beforeDestroy() {
         window.removeEventListener('resize', this.checkScreenSize);
     },
@@ -77,7 +77,7 @@ export default {
         <div class="leftM">
             <div class="content">
                 <h1>Juara 3</h1>
-                <h1>Cung-Nduk Pasar Turi 2024</h1>
+                <h1>Cung-Nduk Pasar Turi Baru 2024</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum nibh sed eros condimentum
                     convallis. Aenean interdum tristique quam, eu varius sapien placerat nec. Fusce ac tortor semper
                     erat condimentum tempus eu ut tellus. Cras viverra, magna in feugiat venenatis, quam justo convallis

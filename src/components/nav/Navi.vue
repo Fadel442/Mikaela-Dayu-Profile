@@ -20,7 +20,7 @@
             </button>
         </div>
         <div class="dropdown-menu" v-if="isMobile && isMenu">
-            <RouterLink to="/" class="color-menu">Home</RouterLink>
+            <RouterLink :to="{ name: 'homeP'}" class="color-menu">Home</RouterLink>
             <div class="dropdown-portofolio" @click="togglePortfolio">
                 Portofolio
                 <div class="portfolio-menu" v-if="isPortfolioMenu">
@@ -32,6 +32,7 @@
             <RouterLink to="/" class="color-menu">Contact Me!</RouterLink>
         </div>
     </nav>
+    <RouterView />
 </template>
 
 <script>
